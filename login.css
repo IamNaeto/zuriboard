@@ -94,11 +94,12 @@ main .container .form form input:nth-child(n+2){
     width: 350px;
     height: 40px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #E8F0FE;
+    border: 2px solid #F8F8F8;
     box-shadow: 1px 1px 1px -1px #E8F0FE;
+    color: #555555;
 }
 main .container .form form input:nth-child(n+2):focus{
     box-shadow: -1px 0px 2px 2px #E8F0FE;
