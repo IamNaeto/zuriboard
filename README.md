@@ -3,7 +3,7 @@
 - Homepage
 - Login page
 - Forget password page
-- Dashboard page (when log in)
+- Dashboard page (when logged in)
 
     - Live Link :: [Go Live](https://iamnaeto.github.io/zuriboard/)
     - Original Zuri Link :: [ZuriI4G]( https://w2.zuriboard.com/)
