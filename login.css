@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F8F8;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color: #FFFFFF;
+    height: 80px;
+    box-shadow: -4px -3px 2.5px 3px #555555;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+header .container .zuri-logo img{
+    width: 100px;
+    height: 25px;
+    margin-left: 50px;
+}
+header .container .login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+header .container .login img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+header .container .login{
+    margin: 20px 50px;
+}
+header .container .login button{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    background-color: #E7332B;
+    color: #FFFFFF;
+    border: 2px solid #E7332B;
+    font-size: 14px;
+    font-weight: bolder;
+}
+header .container .login button:hover{
+    background-color: #0C3252;
+    border: 2px solid #0C3252;
+    cursor: pointer;
+}
+
+/* Main Styling */
+main .container{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main .container h1{
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 32px;
+    color: #555555;
+    text-align: center;
+}
+main .container p{
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 20px;
+    color: #145388;
+    font-weight: bolder;
+    text-align: center;
+}
+main .container .form{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 3px 2px #E1E6FC;
+}
+main .container .form form label{
+    color: #555555;
+}
+main .container .form form input:nth-child(n+2){
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #F8F8F8;
+    box-shadow: 1px 1px 1px -1px #F8F8F8;
+}
+main .container .form form input:nth-child(n+2):focus{
+    box-shadow: -1px 0px 2px 2px #E1E6FC;
+    outline: none;
+}
+main .container .form form .box label{
+    font-size: 14px;
+}
+main .container .form form input:last-child{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px 10px;
+    background-color: #E7332B;
+    color: #FFFFFF;
+    border: 2px solid #E7332B;
+    font-size: 14px;
+    font-weight: bolder;
+    align-items: flex-end;
+}
+main .container .form form input:last-child:hover{
+background-color: #0C3252;
+border: 2px solid #0C3252;
+cursor: pointer;
+}
+main .container .form form a{
+    color: #555555;
+    justify-items: right;
+    margin-left: 80px;
+}
+main .container .form form a:hover{
+    color: #000;
+}
+
+@media screen and (max-width:450px) {
+    main .container .form form input:nth-child(n+2){
+        width: 300px;
+    }
+    main .container .form form input:last-child{
+        width: 90px;
+    }
+    main .container .form form a{
+        margin-left: 30px;
+}
+}
+
+@media screen and (max-width:380px) {
+    main .container .form{
+        padding: 20px;
+    }
+    main .container .form form input:nth-child(n+2){
+        width: 250px;
+    }
+    main .container .form form input:last-child{
+        width: 80px;
+    }
+    main .container .form form a{
+        margin-left: 0px;
+}
+}

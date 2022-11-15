@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F8F8;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color: #FFFFFF;
+    height: 80px;
+    box-shadow: -4px -3px 2.5px 3px #555555;
+    font-family: 'Nunito Sans', sans-serif;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+header .container .zuri-logo img{
+    width: 100px;
+    height: 25px;
+    margin-left: 50px;
+}
+header .container .login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+header .container .login img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: flex;
+}
+header .container .login{
+    margin: 20px 50px;
+}
+header .container .login button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    background-color: #E7332B;
+    color: #FFFFFF;
+    border: 2px solid #E7332B;
+    font-size: 14px;
+    font-weight: bolder;
+}
+header .container .login button:last-child{
+    width: 90px;
+}
+header .container .login button:hover{
+    background-color: #0C3252;
+    border: 2px solid #0C3252;
+    cursor: pointer;
+}
+
+/* Main-Styling */
+main .container{
+    display: grid;
+    place-content: center;
+    height: 80vh;
+}
+main .container h1{
+    font-size: 48px;
+    color: #555555;
+    line-height: 48px;
+    font-weight: 700px;
+}
+main .container p{
+    font-size: 14px;
+    color: #555555;
+    line-height: 20px;
+    font-weight: 400px;
+}
+
+@media screen and (max-width: 470px) {
+    header .container .zuri-logo img{
+        margin-left: 3px;
+    }
+    header .container .login img{
+        display: none;
+    }
+    header .container .login{
+        margin: 20px 50px;
+    }
+    header .container .login button{
+        width: 100px;
+        margin: 0px 2px;
+        font-size: 13px;
+    }
+    main .container h1{
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    main .container p{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+}
