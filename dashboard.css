@@ -51,6 +51,9 @@ header .container .login button{
     font-size: 14px;
     font-weight: bolder;
 }
+header .container .login button:last-child{
+    width: 90px;
+}
 header .container .login button:hover{
     background-color: #0C3252;
     border: 2px solid #0C3252;
@@ -78,14 +81,17 @@ main .container p{
 
 @media screen and (max-width: 470px) {
     header .container .zuri-logo img{
-        margin-left: 25px;
+        margin-left: 8px;
+    }
+    header .container .login img{
+        display: none;
     }
     header .container .login{
-        margin: 20px 70px;
+        margin: 20px 50px;
     }
     header .container .login button{
         width: 100px;
-        margin: 0px 10px;
+        margin: 0px 2px;
         font-size: 13px;
     }
     main .container h1{
