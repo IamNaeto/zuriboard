@@ -24,6 +24,7 @@ header .container .zuri-logo img{
     width: 100px;
     height: 25px;
     margin-left: 50px;
+    display: flex;
 }
 header .container .login{
     display: flex;
